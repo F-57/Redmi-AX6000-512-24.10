@@ -66,6 +66,7 @@ function git_sparse_clone() {
 # --- 插件集成 ---
 git_sparse_clone main https://github.com/F-57/luci-app luci-app-adguardhome airconnect luci-app-airconnect
 git_sparse_clone main https://github.com/sirpdboy/luci-app-lucky lucky luci-app-lucky
+git_sparse_clone main https://github.com/anothaDev/luci-theme-vantage luci-app-vantage luci-theme-vantage
 git clone https://github.com/eamonxg/luci-theme-shadcn package/luci-theme-shadcn
 git clone https://github.com/eamonxg/luci-theme-aurora package/luci-theme-aurora
 git clone https://github.com/eamonxg/luci-app-aurora-config package/luci-app-aurora-config
